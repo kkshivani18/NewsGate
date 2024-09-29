@@ -11,4 +11,4 @@ Frontend: Built using Streamlit, the frontend provides a login page where users 
 
 Secure API Access: Ensures that only valid tokens can access the API, adding an extra layer of security to prevent unauthorized access.
 
-This project demonstrates how to integrate JWT authentication in a microservice architecture, providing a secure way to manage and control API access. It also features a dashboard for Admin users to perform sentiment analysis and filter news based on categories such as crime, violence, and disaster, providing a clear and user-friendly interface.
+This project demonstrates how to integrate JWT authentication in a microservice architecture, providing a secure way to manage and control API access. It also features a dashboard for Admin users to perform sentiment analysis and filter news based on different news channels providing the analysis based on positivity and negativity of the news providing a clear and user-friendly interface. 
