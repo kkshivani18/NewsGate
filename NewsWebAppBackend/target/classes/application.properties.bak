@@ -1,0 +1,19 @@
+spring.application.name=web
+
+server.port = 8086
+
+# MySQL Connection
+spring.datasource.url=jdbc:mysql://localhost:3333/news_db
+spring.datasource.username=root
+spring.datasource.password=root
+
+# JPA/Hibernate Configuration
+spring.jpa.hibernate.ddl-auto=update
+spring.jpa.show-sql=true
+spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.MySQLDialect
+
+# news
+news.api.url=https://newsapi.org/v2/top-headlines
+news.api.key=b695d0fa3367410fb52c954925bf9e66
+
+logging.level.org.springframework.security=DEBUG
